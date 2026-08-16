@@ -4,12 +4,6 @@ A Power BI dashboard project analyzing employee productivity, workplace laziness
 
 ---
 
-## 📊 Dashboard Preview
-
-![Employee Laziness & Productivity Dashboard](screenshots/Dashboard1.png)
-
----
-
 ## 📌 Project Overview
 
 This project analyzes employee activity data to identify productivity patterns and workplace laziness.
@@ -17,6 +11,13 @@ This project analyzes employee activity data to identify productivity patterns a
 The dashboard uses **Power BI and DAX** to calculate a Laziness Index and provide business-focused insights related to employee productivity, work mode, social media usage, deadlines, meetings, salary levels, and departmental performance.
 
 ---
+
+## 📊 Dashboard Preview
+
+![Employee Laziness & Productivity Dashboard](screenshots/Dashboard1.png)
+
+---
+
 
 ## 🎯 Objectives
 
@@ -285,7 +286,7 @@ Aspiring Data Analyst | Power BI | SQL | Python | Excel
 
 ## ⭐ Project Highlights
 
-**Domain:** Employee Productivity & HR Analytics  
+**Domain:** Employee Productivity Analytics  
 **Tool:** Power BI  
 **Dataset:** 200 Employee Records  
 **Focus:** Productivity, Laziness, Work Patterns & HR Insights
