@@ -355,8 +355,9 @@ flowchart LR
     C --> D[Power BI Data Model]
     D --> E[DAX Measures]
     E --> F[Laziness Index]
+
     F --> G[Productivity Classification]
     G --> H[Interactive Dashboard]
     H --> I[Business Questions]
     I --> J[Analytical Insights]
-    J --> K[Business Recommendations]
+    J --> K[Business Analysis]
