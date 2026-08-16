@@ -346,18 +346,6 @@ This analysis can help organizations:
 
 ---
 
-## 🔄 Project Workflow
+## 👤 Author **Shanmukh Koyya** 
 
-```mermaid
-flowchart LR
-    A[Employee Activity Data] --> B[CSV Dataset]
-    B --> C[Data Preparation]
-    C --> D[Power BI Data Model]
-    D --> E[DAX Measures]
-    E --> F[Laziness Index]
-
-    F --> G[Productivity Classification]
-    G --> H[Interactive Dashboard]
-    H --> I[Business Questions]
-    I --> J[Analytical Insights]
-    J --> K[Business Analysis]
+Aspiring Data Analyst | Power BI | SQL | Python | Excel
