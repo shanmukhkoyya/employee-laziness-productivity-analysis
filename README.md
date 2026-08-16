@@ -346,27 +346,17 @@ This analysis can help organizations:
 
 ---
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
-```text
-Employee Activity Data
-        ↓
-       CSV
-        ↓
-Data Preparation
-        ↓
-   Power BI Model
-        ↓
-    DAX Measures
-        ↓
-Laziness Index Calculation
-        ↓
-Productivity Classification
-        ↓
-Interactive Visualizations
-        ↓
-Business Questions
-        ↓
-Analytical Insights
-        ↓
-Business Analysis
+```mermaid
+flowchart LR
+    A[Employee Activity Data] --> B[CSV Dataset]
+    B --> C[Data Preparation]
+    C --> D[Power BI Data Model]
+    D --> E[DAX Measures]
+    E --> F[Laziness Index]
+    F --> G[Productivity Classification]
+    G --> H[Interactive Dashboard]
+    H --> I[Business Questions]
+    I --> J[Analytical Insights]
+    J --> K[Business Recommendations]
