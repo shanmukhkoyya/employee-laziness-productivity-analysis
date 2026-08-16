@@ -97,19 +97,3 @@ The project includes:
 **Shanmukh Koyya**
 
 Aspiring Data Analyst | Power BI | SQL | Python | Excel
-
-
-## 📂 Project Structure
-
-```text
-employee-laziness-productivity-analysis/
-│
-├── screenshots/
-│   ├── Dashboard1.png
-│   ├── Dashboard2.png
-│   ├── Dashboard3.png
-│   └── Dashboard4.png
-│
-├── Laziness_Analysis_200_Records.csv
-├── laziness_data.pbix
-└── README.md
