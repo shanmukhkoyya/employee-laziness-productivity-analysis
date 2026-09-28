@@ -1,12 +1,14 @@
-# 📊 Employee Laziness & Productivity Analysis
+# 📊 Employee Productivity & Work Pattern Analysis
 
-A Power BI dashboard project analyzing employee productivity, workplace laziness, work patterns, and behavioral factors using 200 employee activity records.
+A **Power BI and DAX business analytics project** analyzing 200 employee activity records to understand productivity patterns, work modes, behavioral factors, and a project-defined **Laziness Index**.
+
+> **Portfolio note:** The Laziness Index is an analytical metric defined for this project. The dataset is a project dataset and should not be interpreted as a real-world assessment of individual employee performance.
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes employee activity data to identify productivity patterns and workplace laziness.
+This project analyzes employee activity data to identify productivity patterns, work-mode differences, workload behavior, and factors associated with the project-defined Laziness Index.
 
 The dashboard uses **Power BI and DAX** to calculate a Laziness Index and provide business-focused insights related to employee productivity, work mode, social media usage, deadlines, meetings, salary levels, and departmental performance.
 
@@ -43,6 +45,72 @@ The dashboard uses **Power BI and DAX** to calculate a Laziness Index and provid
 - Identify departments requiring HR attention
 - Explore employee work patterns
 - Support data-driven HR decision-making
+
+---
+
+## 📌 Validated Dataset Findings
+
+The following descriptive findings were calculated from the 200 records in the repository dataset.
+
+| Metric | Result |
+|---|---:|
+| Total employees | 200 |
+| Average Laziness Index | 0.391 |
+| Records with Laziness Index ≥ 0.40 | 86 |
+| Highest department average | Sales — 0.406 |
+| Lowest department average | Finance — 0.376 |
+| Office average | 0.392 |
+| WFH average | 0.390 |
+| Highest salary-level average | Low — 0.410 |
+| Lowest salary-level average | Medium — 0.360 |
+
+### Department comparison
+
+| Department | Avg. Laziness Index |
+|---|---:|
+| Sales | 0.406 |
+| IT | 0.404 |
+| HR | 0.391 |
+| Marketing | 0.384 |
+| Finance | 0.376 |
+
+### Work-mode comparison
+
+Office and WFH averages are very close in this dataset:
+
+- **Office:** 0.392
+- **WFH:** 0.390
+
+This dataset alone does **not** support a strong conclusion that one work mode has a materially higher average Laziness Index.
+
+### Social media usage and missed deadlines
+
+Average social media usage in the dataset is:
+
+- **Deadline missed = Yes:** 3.34 hours
+- **Deadline missed = No:** 3.52 hours
+
+This descriptive comparison does **not** show higher average social media usage among employees who missed deadlines. It should not be interpreted as proof of causation.
+
+---
+
+## ⚠️ Scope & Limitations
+
+- The dataset contains **200 records** and is intended for portfolio/project analysis.
+- The Laziness Index is a **project-defined analytical metric**.
+- Observed relationships are descriptive and do not establish causation.
+- Results should not be generalized to an entire organization or workforce.
+- Employee-level labels should be interpreted as analytical categories rather than formal performance judgments.
+
+---
+
+## 🧠 Skills Demonstrated
+
+**Power BI:** Dashboard design, KPI development, interactive slicers, drillthrough, Decomposition Tree, What-If analysis, conditional formatting, business visualization.
+
+**DAX:** Calculated metrics, KPI logic, scenario-based calculations, analytical categorization.
+
+**Data Analysis:** Descriptive analysis, group comparison, employee-level analysis, business-question-driven analysis, interpretation of analytical limitations.
 
 ---
 
@@ -222,7 +290,7 @@ The dataset contains **200 employee activity records**.
 
 # 📌 Laziness Index
 
-The project uses the **Laziness Index** to classify employee productivity.
+The project uses a **Laziness Index** as an analytical metric for categorizing productivity-related patterns.
 
 | Laziness Index | Category |
 |---|---|
@@ -235,6 +303,8 @@ The project uses the **Laziness Index** to classify employee productivity.
 - **Productive:** Index < 0.25
 - **Moderate:** Index 0.25–0.40
 - **High Laziness:** Index ≥ 0.40
+
+> These thresholds are project-defined analytical categories, not organizational performance standards.
 
 ---
 
@@ -321,12 +391,12 @@ All dashboard screenshots are available in the `screenshots/` folder.
 
 This analysis can help organizations:
 
-- Identify departments with higher Laziness Index levels
+- Monitor productivity-related KPIs and compare departments
 - Monitor employee productivity
 - Compare different work modes
 - Understand employee work patterns
 - Analyze productivity-related behavioral factors
-- Identify employees requiring attention
+- Explore employee-level patterns for further investigation
 - Support HR decision-making
 - Explore potential relationships between work habits and performance
 - Perform scenario-based productivity analysis
