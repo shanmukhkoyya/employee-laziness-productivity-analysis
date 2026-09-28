@@ -85,12 +85,14 @@ This dataset alone does **not** support a strong conclusion that one work mode h
 
 ### Social media usage and missed deadlines
 
-Average social media usage in the dataset is:
+For repository-level validation, average social media usage is:
 
 - **Deadline missed = Yes:** 3.34 hours
 - **Deadline missed = No:** 3.52 hours
 
 This descriptive comparison does **not** show higher average social media usage among employees who missed deadlines. It should not be interpreted as proof of causation.
+
+> **Dashboard note:** The Analytical Insights Q4 visual groups **total social media usage** by missed-deadline status, while the validated finding above uses **average social media usage**. These are different aggregations and should not be interpreted as the same metric.
 
 ---
 
@@ -167,6 +169,8 @@ The main dashboard provides an overall view of employee productivity and lazines
 - Login Hours vs Tasks Completed
 - Top Lazy Employees
 - Interactive Filters
+
+The Login Hours vs Tasks Completed scatter plot uses **Login Hours** on the X-axis, **Tasks Completed** on the Y-axis, and Social Media Usage as the bubble-size measure.
 
 ---
 
@@ -245,6 +249,8 @@ The page focuses on:
 - Employee productivity
 - Meeting attendance and task completion
 - HR intervention areas
+
+The Q4 visual uses **total social media usage** by missed-deadline status. The Q5 visual identifies the top 5 employees by task completion percentage. The Q6 visual compares meeting attendance with task completion percentage using grouped aggregation.
 
 ---
 
@@ -416,6 +422,6 @@ This analysis can help organizations:
 
 ---
 
-## 👤 Author **Shanmukh Koyya** 
+## 👤 Author **Shanmukh Koyya**
 
 Aspiring Data Analyst | Power BI | SQL | Python | Excel
