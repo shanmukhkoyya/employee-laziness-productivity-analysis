@@ -33,7 +33,7 @@ The CSV contains 200 activity records. Fields include department, work mode, log
 |---|---|
 | [Power BI report](laziness_data.pbix) | Dashboard file |
 | [Dataset](Laziness_Analysis_200_Records.csv) | Sample activity data |
-| [Screenshots](screenshots/) | Dashboard images |
+| [Main dashboard screenshot](screenshots/Dashboard1.png) | Dashboard images |
 
 ## Selected descriptive results
 Calculated from the 200 records supplied with the project:
