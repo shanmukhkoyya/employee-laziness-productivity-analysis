@@ -1,46 +1,98 @@
 # Employee Productivity & Work Pattern Analysis
 
-**Tools:** Power BI · DAX · CSV
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14243B,100:00C9D8&height=180&section=header&text=EMPLOYEE%20WORK%20PATTERN%20ANALYSIS&fontSize=27&fontColor=ffffff&fontAlignY=40&desc=POWER%20BI%20%7C%20DAX%20%7C%20DATA%20ANALYTICS&descAlignY=65" width="100%" />
+</p>
 
-This project explores 200 sample employee activity records through a Power BI dashboard. It compares work patterns, task completion, missed deadlines, work mode, and a project-defined **Laziness Index**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/DAX-4479A1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data_Visualization-00A6A6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CSV-14243B?style=for-the-badge" />
+</p>
 
-> The dataset and index are for portfolio analysis. The index is not a validated HR measure and should not be used as a formal judgement of individual employees.
+## 1. Project Overview
 
-## Questions explored
+This project analyses 200 sample employee activity records using Microsoft Power BI.
+
+It explores work patterns, task completion, working hours, missed deadlines, meetings, idle time, breaks and work modes through an interactive dashboard.
+
+The project also uses a custom, project-defined Laziness Index to demonstrate how calculated metrics can be explored through data visualisation.
+
+> **Important:** The dataset and index are designed for portfolio analysis. The index is not a scientifically validated HR measure and must not be used to judge individual employees.
+
+## 2. Business Problem
+
+Organisations may want to understand how work patterns and task-related indicators vary across departments and working arrangements.
+
+This project demonstrates how a sample activity dataset can be analysed to explore these patterns and present descriptive findings through Power BI.
+
+## 3. Project Objectives
+
+- Explore the supplied employee activity dataset.
+- Compare work patterns across departments.
+- Analyse Office and Work From Home records.
+- Examine task completion and missed deadlines.
+- Explore login hours, active hours, idle time and breaks.
+- Create and analyse a project-defined index.
+- Build interactive Power BI reports.
+- Communicate descriptive findings while recognising dataset limitations.
+
+## 4. Dataset Overview
+
+The project uses a sample dataset containing 200 employee activity records.
+
+The dataset includes:
+
+- Department and work mode.
+- Login hours and active hours.
+- Idle time and break duration.
+- Tasks assigned and completed.
+- Missed-deadline status.
+- Meeting hours and social-media usage.
+- Performance rating and salary level.
+- Project-defined index and productivity category.
+
+**[View the CSV Dataset](Laziness_Analysis_200_Records.csv)**
+
+## 5. Analytical Questions
+
 - How does the project-defined index vary across departments?
-- How do the sample's Office and Work From Home averages compare?
-- How are task completion, meetings, idle time, breaks, and social-media usage represented?
-- What patterns appear when records are grouped by missed-deadline status?
-- What can the dashboard show, and where are the limits of the sample?
+- How do Office and Work From Home averages compare?
+- How are task completion and missed deadlines represented?
+- What patterns appear in idle time, break duration and meeting hours?
+- How does the index vary across the sample's productivity categories?
+- What can be explored using employee-level dashboard filters?
 
-## Dashboard screenshots
-### Main dashboard
-![Main Dashboard](screenshots/Dashboard1.png)
+## 6. Dashboard Screenshots
 
-### Employee details
-![Employee Details](screenshots/Dashboard2.png)
+The following are the four existing dashboard screenshots stored in this repository.
 
-### Index breakdown
-![Index Breakdown](screenshots/Dashboard3.png)
+### Dashboard 1 — Main Dashboard
 
-### Analytical insights
-![Analytical Insights](screenshots/Dashboard4.png)
+![Main Power BI Dashboard](screenshots/Dashboard1.png)
 
-## Dataset and files
-The CSV contains 200 activity records. Fields include department, work mode, login and active hours, idle and break time, tasks assigned and completed, missed-deadline status, meetings, social-media usage, performance rating, salary level, index, and productivity category.
+### Dashboard 2 — Employee Details
 
-| File | Purpose |
-|---|---|
-| [Power BI report](laziness_data.pbix) | Dashboard file |
-| [Dataset](Laziness_Analysis_200_Records.csv) | Sample activity data |
-| [Main dashboard screenshot](screenshots/Dashboard1.png) | Dashboard images |
+![Employee Details Dashboard](screenshots/Dashboard2.png)
 
-## Selected descriptive results
-Calculated from the 200 records supplied with the project:
+### Dashboard 3 — Index Breakdown
+
+![Index Breakdown Dashboard](screenshots/Dashboard3.png)
+
+### Dashboard 4 — Analytical Insights
+
+![Analytical Insights Dashboard](screenshots/Dashboard4.png)
+
+## 7. Key Descriptive Findings
+
+The following results are calculated from the 200 records supplied with this project.
+
+### KPI summary
 
 | Measure | Result |
 |---|---:|
-| Records | 200 |
+| Total records | 200 |
 | Average project-defined index | 0.391 |
 | Records with index ≥ 0.40 | 86 |
 | Highest department average | Sales — 0.406 |
@@ -48,31 +100,84 @@ Calculated from the 200 records supplied with the project:
 | Office average | 0.392 |
 | Work From Home average | 0.390 |
 
-The Office and Work From Home averages are close in this sample. The data does not support a strong claim that one work mode is materially associated with a higher index.
+### Work-mode comparison
 
-Average social-media usage is 3.34 hours for records marked as having missed a deadline and 3.52 hours for records not marked as having missed a deadline. This descriptive comparison does not establish causation.
+The Office and Work From Home averages are very close in this sample.
 
-## What the dashboard contains
-- KPI cards and department comparisons
-- Work-mode and productivity-category views
-- Login hours versus completed tasks
-- Employee-level details and filters
-- Decomposition Tree for exploring the project-defined index
-- What-If parameter for a hypothetical break-time change
-- Analytical views comparing groups
+The difference is descriptive only. It does not establish that a particular work arrangement improves or reduces employee performance.
 
-## How to review
-1. Open laziness_data.pbix in Power BI Desktop.
-2. Explore each report page and use the available slicers.
-3. Compare the visuals with the descriptive results above.
-4. Review the CSV and the index definition before interpreting the results.
+### Additional observation
 
-## Limitations
-- The dataset contains 200 project records.
-- The index and category thresholds are defined for this exercise, not validated organisational standards.
+| Group | Average social-media usage |
+|---|---:|
+| Records marked as having missed a deadline | 3.34 hours |
+| Records not marked as having missed a deadline | 3.52 hours |
+
+This comparison does not establish a relationship of cause and effect.
+
+## 8. Power BI Dashboard Features
+
+The report includes:
+
+- KPI cards and department comparisons.
+- Work-mode and productivity-category views.
+- Login hours versus completed tasks.
+- Employee-level details and filters.
+- Decomposition Tree for exploring the project-defined index.
+- What-If parameter for a hypothetical break-time change.
+- Analytical views comparing different groups.
+
+## 9. Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Power BI | Dashboard development and reporting |
+| DAX | Measures and calculated analytical metrics |
+| CSV | Dataset storage and data input |
+
+## 10. How to Run the Project
+
+**Prerequisite:** Microsoft Power BI Desktop.
+
+1. Clone or download this repository.
+2. Open `Laziness_Analysis_200_Records.csv` to inspect the sample data.
+3. Open `laziness_data.pbix` in Power BI Desktop.
+4. Explore the report pages.
+5. Use the available slicers and filters.
+6. Review the project-defined index before interpreting the dashboard results.
+
+**[Open Power BI Report](laziness_data.pbix)**
+
+## 11. Project Structure
+
+```text
+employee-laziness-productivity-analysis/
+│
+├── Laziness_Analysis_200_Records.csv
+├── laziness_data.pbix
+│
+├── screenshots/
+│   ├── Dashboard1.png
+│   ├── Dashboard2.png
+│   ├── Dashboard3.png
+│   └── Dashboard4.png
+│
+└── README.md
+```
+
+## 12. Scope and Limitations
+
+- The dataset contains 200 sample activity records.
+- The index and category thresholds are defined for this project exercise.
+- The index is not a validated organisational or HR standard.
 - Group comparisons are descriptive and do not establish cause and effect.
 - Results should not be generalised to all employees or workplaces.
-- The word “laziness” in the project name refers to the defined sample metric, not a verified judgement about a person.
+- The term "Laziness" in the project name refers only to the defined sample metric, not a verified judgement about any person.
 
-## Author
-**Shanmukh Koyya** · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
+## 13. Author
+
+**Shanmukh Koyya**
+
+- **GitHub:** [shanmukhkoyya](https://github.com/shanmukhkoyya)
+- **LinkedIn:** [linkedin.com/in/shanmukh-koyya](https://www.linkedin.com/in/shanmukh-koyya/)
+- **Email:** [shanmukhkoyya1234@gmail.com](mailto:shanmukhkoyya1234@gmail.com)
